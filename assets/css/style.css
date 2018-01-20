@@ -1,3 +1,7 @@
+.font{
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
 .oneline{
   display: inline-block;
 }
@@ -5,4 +9,21 @@
 .navlinks{
     color: rgba(0,0,0,0.87);
     text-decoration: none;
+}
+.navlinks_signin{
+    line-height: 28px;
+    padding: 0 12px;
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    border:1px solid #4285f4;
+    border-radius: 2px;
+    font-weight: bold;
+    background: #4285f4;
+
+}
+
+.position_left{
+  float:right;
+  clear: both;
 }
