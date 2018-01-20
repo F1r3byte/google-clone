@@ -1,3 +1,8 @@
 .oneline{
   display: inline-block;
 }
+
+.navlinks{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
