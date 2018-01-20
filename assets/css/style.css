@@ -32,3 +32,9 @@
   float:left;
   clear: both;
 }
+.position_auto{
+  text-align: center;
+}
+.position_img{
+  padding-top: 109px;
+}
