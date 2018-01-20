@@ -19,7 +19,8 @@
     border:1px solid #4285f4;
     border-radius: 2px;
     font-weight: bold;
-    background: #4285f4;
+    outline: none;
+    background: linear-gradient(to top,#4387fd,#4683ea);
 
 }
 
