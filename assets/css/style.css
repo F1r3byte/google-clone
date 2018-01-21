@@ -1,7 +1,11 @@
+.margin_foot{
+  margin-right: 30px;
+}
 .footer_bar{
   background: #f2f2f2;
   border-top: 1px solid #e4e4e4;
   min-width: 980px;
+  overflow: hidden;
 }
 .font{
   font-family: arial,sans-serif;
@@ -21,7 +25,6 @@
   text-decoration: none;
   white-space: nowrap;
   line-height: 40px;
-  padding-left: 27px;
   padding-left: 27px;
   margin: 0 !important;
   display: inline-block;
@@ -64,9 +67,11 @@
   padding-top: 109px;
 }
 .footer{
-  position: absolute;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width:100%;
 }
 .gapps {
   height: 30px;
