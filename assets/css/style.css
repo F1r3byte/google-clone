@@ -2,6 +2,11 @@
   font-family: arial,sans-serif;
   font-size: 13px;
 }
+.font_foot{
+  font-size: 15px;
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
+}
 .oneline{
   display: inline-block;
 }
@@ -25,16 +30,28 @@
 }
 
 .position_right{
-  float:right;
+  float: right;
   clear: both;
 }
 .position_left{
-  float:left;
+  float: left;
   clear: both;
 }
-.position_auto{
+.position_center{
   text-align: center;
 }
 .position_img{
   padding-top: 109px;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.gapps {
+  height: 30px;
+  width: 30px;
+  background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-position: -132px -38px;
+  opacity: 0.55;
 }
