@@ -78,9 +78,16 @@
   width:100%;
 }
 .gapps {
-  height: 30px;
-  width: 30px;
-  background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
-  background-position: -132px -38px;
-  opacity: 0.55;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -132px -38px;
+    background-size: 528px 68px;
+    width: 30px;
+    height: 30px;
+    opacity: .55;
+    display: inline-block;
+    margin: 0 1px 0 10px;
+    vertical-align: middle;
+}
+.gapps:hover{
+  opacity: 1;
 }
