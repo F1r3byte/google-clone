@@ -1,6 +1,13 @@
 body{
   margin: 0;
 }
+#navbar{
+  margin-top: .938rem;
+  padding-right: 1.875rem;
+}
+.images{
+  padding: 0 .938rem;
+}
 .margin_foot{
   margin-right: 1.875rem;
 }
@@ -64,6 +71,9 @@ body{
 .navlinks_signin:hover{
   	box-shadow: 0 .063rem 0 rgba(0,0,0,.15);
 }
+.signin{
+  padding-left:.938rem; 
+}
 .position_right{
   float: right;
 }
@@ -88,7 +98,7 @@ body{
     height: 1.875rem;
     opacity: .55;
     display: inline-block;
-    margin: 0 .063rem 0 .625rem;
+    margin:0;
     vertical-align: middle;
 }
 .gapps:hover{
