@@ -2,24 +2,24 @@ body{
   margin: 0;
 }
 .margin_foot{
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 .footer_bar{
   background: #f2f2f2;
-  border-top: 1px solid #e4e4e4;
-  min-width: 980px;
+  border-top: .063rem solid #e4e4e4;
+  min-width: 61.25rem;
   overflow: hidden;
 }
 .font{
   font-family: arial,sans-serif;
-  font-size: 13px;
+  font-size: .813rem;
 }
 .font_foot{
-  font-size: 15px;
+  font-size: .938rem;
   color: rgba(0,0,0,.54);
   text-decoration: none;
-  line-height: 40px;
-  padding-left: 27px;
+  line-height: 2.5rem;
+  padding-left: 1.688rem;
   text-align: left;
 }
 .font_footer{
@@ -27,8 +27,8 @@ body{
   color: #666;
   text-decoration: none;
   white-space: nowrap;
-  line-height: 40px;
-  padding-left: 27px;
+  line-height: 2.5rem;
+  padding-left: 1.688rem;
   margin: 0 !important;
   display: inline-block;
 }
@@ -49,12 +49,12 @@ body{
 }
 .navlinks_signin{
     background: linear-gradient(to top,#4387fd,#4683ea);
-    border: 1px solid #4285f4;
+    border: .063rem solid #4285f4;
     color: #fff;
     font-weight: bold;
-    line-height: 28px;
-    padding: 0 12px;
-    border-radius: 2px;
+    line-height: 1.75rem;
+    padding: 0 .75rem;
+    border-radius: .125rem;
     display: inline-block;
     cursor: default;
     opacity: 1;
@@ -62,7 +62,7 @@ body{
     outline: none;
 }
 .navlinks_signin:hover{
-  	box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  	box-shadow: 0 .063rem 0 rgba(0,0,0,.15);
 }
 .position_right{
   float: right;
@@ -71,7 +71,7 @@ body{
   text-align: center;
 }
 .position_img{
-  padding-top: 109px;
+  padding-top: 6.813rem;
 }
 .footer{
   bottom: 0;
@@ -83,12 +83,12 @@ body{
 .gapps {
     background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
     background-position: -132px -38px;
-    background-size: 528px 68px;
-    width: 30px;
-    height: 30px;
+    background-size: 33rem 4.25rem;
+    width: 1.875rem;
+    height: 1.875rem;
     opacity: .55;
     display: inline-block;
-    margin: 0 1px 0 10px;
+    margin: 0 .063rem 0 .625rem;
     vertical-align: middle;
 }
 .gapps:hover{
