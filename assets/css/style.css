@@ -54,6 +54,10 @@ body{
     color: rgba(0,0,0,0.87);
     text-decoration: none;
 }
+.navlinks:hover{
+  color: rgba(0,0,0,0.75);
+  text-decoration: underline;
+}
 .navlinks_signin{
     background: linear-gradient(to top,#4387fd,#4683ea);
     border: .063rem solid #4285f4;
@@ -72,7 +76,7 @@ body{
   	box-shadow: 0 .063rem 0 rgba(0,0,0,.15);
 }
 .signin{
-  padding-left:.938rem; 
+  padding-left:.938rem;
 }
 .position_right{
   float: right;
@@ -103,4 +107,5 @@ body{
 }
 .gapps:hover{
   opacity: 1;
+  cursor: pointer;
 }
