@@ -85,7 +85,8 @@ body{
   text-align: center;
 }
 .position_img{
-  padding-top: 6.813rem;
+  padding-top: 12.375rem;
+  padding-bottom: 1.25rem;
 }
 .footer{
   bottom: 0;
@@ -134,4 +135,15 @@ body{
   border-color: #c6c6c6;
   box-shadow: 0 .063rem .063rem rgba(0,0,0,0.1);
   color: #222;
+}
+.MarginOffered{
+  margin-top: .75rem;
+}
+.PaddingButtons{
+  padding-top: 1.125rem;
+}
+.GoogleSearchBar{
+  padding-left: 17.75rem;
+  padding-right: 17.75rem;
+  padding-top: .5rem;
 }

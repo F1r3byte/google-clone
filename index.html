@@ -12,8 +12,8 @@ Currently working on the CSS part.
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <title>Google</title>
   </head>
-  <body id="navbar" class="font">
-    <div class="position_right">
+  <body class="font">
+    <div id="navbar" class="position_right">
       <div class="oneline">
         <a class="navlinks" href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
       </div>
@@ -33,12 +33,16 @@ Currently working on the CSS part.
         </div>
         <div class="position_center">
           <form action="index.html" method="get">
-            <input type="text" name="Search"><br />
-            <input type="submit" name="Google_Search" value="Google Search" class="InputButtons">
-            <input type="submit" name="I'm_Feeling_Lucky" value="I'm Feeling Lucky" class="InputButtons">
+            <div class="GoogleSearchBar">
+              <input type="text" name="Search">
+            </div>
+            <div class="PaddingButtons">
+              <input type="submit" name="Google_Search" value="Google Search" class="InputButtons">
+              <input type="submit" name="I'm_Feeling_Lucky" value="I'm Feeling Lucky" class="InputButtons">
+            </div>
           </form>
         </div>
-        <div class="position_center">
+        <div class="position_center MarginOffered">
           <span>Google offered in:</span>
           <a href="www.google.de/">Deutsch</a>
         </div>
