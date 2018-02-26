@@ -128,3 +128,10 @@ body{
   -webkit-appearance: push-button;
   white-space: pre;
 }
+.InputButtons:hover{
+  background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-color: #f8f8f8;
+  border-color: #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
