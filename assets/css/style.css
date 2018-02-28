@@ -127,7 +127,7 @@ input[type=text]:focus{
   font-weight: bold;
   margin: .688rem .250rem;
   min-width: 3.375rem;
-  padding: 0 1em;
+  padding: 0 1rem;
   text-align: center;
   -webkit-appearance: push-button;
   white-space: pre;
